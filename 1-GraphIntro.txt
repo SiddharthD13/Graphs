@@ -1,0 +1,39 @@
+Vertices-> nodes
+edges->connecting lines
+
+adjacent nodes -  the nodes directly connected to the node using an edge
+types of graphs
+1-Undirected graphs - these are bidirectional
+2-Directed graphs - these are unidirectional; 
+
+3-Connected graphs - if there is a path between one vertex of a graph to any other vertex , the graph is connected 
+4- Disconnected graphs - When there is no edge linking the vertices, you refer to the null graph as a disconnected graph.
+
+connected components:- sub-graphs of a disconnected graph which are connected 
+
+5-Cyclic Graph-If a graph contains at least one graph cycle, it is considered to be cyclic.
+6-Acyclic Graph- When there are no cycles in a graph, it is called an acyclic graph.
+
+7-Directed Acyclic Graph-It's also known as a directed acyclic graph (DAG), and it's a graph with directed edges but no cycle. It represents the edges using an ordered pair of vertices since it directs the vertices and stores some data.
+
+8-NUll Graph- verticves with no edges is a a null graph.
+9-Trivial Graph- A graph with a single vertice and no edge.
+
+for n vertices there are minimum n-1 edges in a graph
+for max no of edges in a graph , each vertex has n-1 edges also o(n^2) number of edges are required in total.Such type of graph is called a complete graph or full graph
+
+Degree:- The no of edges connecting it 
+
+directed graphs types, 
+1)indegree-  the number of edges which are coming into the vertex .
+2)Outdegree- Outdegree of vertex V is the number of edges which are going out from the vertex V.
+
+Tree is a Undirected unidirectional graph !
+
+
+types of graph traversals:-
+
+1) Breadth First Traversal:- similar to a level order traversal 
+2) Depth First Traversal :- similar to preorder  traversal
+
+
